@@ -1,0 +1,25 @@
+begin
+logical c;
+c:= false or true;
+writeln(c);
+logical a;
+a:= 1 and 0;
+writeln(a);
+inteGer b;
+inteGer d;
+inteGer f;
+b:=((3+2)*7+55/3-6 div 3);
+writeln(b);
+d:=99 rem 10;
+f:=1;
+begin
+inTeger f;
+f:=(d+10)*(1-3);
+writeln(f);   comment: should print local f;
+end;
+read(f); comment: read into global f;
+writeln("f now is");
+writeln(f);
+writeln("f >=10?");
+writeln(!(f<10));
+end.
