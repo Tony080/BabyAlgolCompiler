@@ -8,13 +8,14 @@ This compiler only generates MIPS code. To run it like a program, you may also n
        to run the compiler.<br>
        **inFilePath** - The source code file written in **baby algol**.<br>
        **outFilePath** - The intermediate code file the compiler will generate in **MIPS**. 
-       
+       [example on windows](https://raw.githubusercontent.com/Tony-Hu/BabyAlgolCompiler/master/BabyAlgolCompiler/example.png)
     3. The symbol table will always present.
     4. As picture shown above, if there are no errors in all sections, the MIPS code will be generated as outFilepath. If any error occurs, the compiler will prompt you. And **NO** MIPS code file will be generated.
 
 3. **Language definition**
     1. The basic rules of algol goes here: https://en.wikipedia.org/wiki/ALGOL
     2. The implemented keywords are shown below.
+    [check list](https://raw.githubusercontent.com/Tony-Hu/BabyAlgolCompiler/master/BabyAlgolCompiler/check_list.png)
     3. What didn't implemented in this compiler?
        1. No function allowed in this compiler.
        2. No REAL type implemented.<br>
