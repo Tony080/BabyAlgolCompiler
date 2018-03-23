@@ -1,5 +1,5 @@
 # 1. **Introduction**<br>
-This compiler is called baby algol compiler(bac). Written in java language. In order to run the compiler, java virtual machine is needed. Some of grammars in algol are not implemented, and that's why call it "baby algol". Further details on [3. Language definition](#3.-**language-definition**<br>). 
+This compiler is called baby algol compiler(bac). Written in java language. In order to run the compiler, java virtual machine is needed. Some of grammars in algol are not implemented, and that's why call it "baby algol". Further details on [3. Language definition](#3-language-definition). 
 This compiler only generates MIPS code. To run it like a program, you may also need to install some MIPS simulator like QtSpim: http://spimsimulator.sourceforge.net/<br>
 **Architecture**<br>
 ![UML](https://raw.githubusercontent.com/Tony-Hu/BabyAlgolCompiler/master/diagram.gv.png)
