@@ -8,3 +8,5 @@
 .project
 *.txt~
 *.jar
+*.gv
+*.ipynb
