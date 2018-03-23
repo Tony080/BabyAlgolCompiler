@@ -1,10 +1,10 @@
-#1. **Introduction**<br>
+# 1. **Introduction**<br>
 This compiler is called baby algol compiler(bac). Written in java language. In order to run the compiler, java virtual machine is needed. Some of grammars in algol are not implemented, and that's why call it "baby algol". Further details on 3. Language definition. 
 This compiler only generates MIPS code. To run it like a program, you may also need to install some MIPS simulator like QtSpim: http://spimsimulator.sourceforge.net/<br>
 **Architecture**<br>
+![UML](https://raw.githubusercontent.com/Tony-Hu/BabyAlgolCompiler/master/diagram.gv.png)
 
-
-#2. **Install & use**<br>
+# 2. **Install & use**<br>
 1. You need to install Java runtime environment (JRE) at first. http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
 2. After the JRE installed, you can open it in an IDE. And just go to BabyAlgolCompiler.java -> main function to run the compiler.<br>
 Note that you have to add the **inFilePath** and **outFilePath** in your program argument.
@@ -17,7 +17,7 @@ Note that you have to add the **inFilePath** and **outFilePath** in your program
 3. The symbol table will always present.
 4. As picture shown above, if there are no errors in all sections, the MIPS code will be generated as outFilepath. If any error occurs, the compiler will prompt you. And **NO** MIPS code file will be generated.
 
-#3. **Language definition**<br>
+# 3. **Language definition**<br>
 1. The basic rules of algol goes here: https://en.wikipedia.org/wiki/ALGOL
 2. Notice that by this compiler definition, algol here is **NOT case-sensitive**.
 3. The implemented keywords are shown below.<br>
@@ -27,7 +27,7 @@ Note that you have to add the **inFilePath** and **outFilePath** in your program
    2. No REAL type implemented.<br>
    Sorry about that. But this compiler just done in 10 weeks on my compiler class.
 
-#4. **Example**<br>
+# 4. **Example**<br>
 Given the input in algol source code format. This is a program to test if the given input is prime.<br>
 ```
 begin
