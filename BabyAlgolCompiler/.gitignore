@@ -1,1 +1,8 @@
 /bin/
+*.txt
+*.docx
+*.zip
+*.s
+/FinalProject/
+.classpath
+.project
