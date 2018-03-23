@@ -6,3 +6,5 @@
 /FinalProject/
 .classpath
 .project
+*.txt~
+*.jar
