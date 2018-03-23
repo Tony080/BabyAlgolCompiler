@@ -1,5 +1,0 @@
-begin
-logical a;
-write(true);
-write(!true);
-end.
